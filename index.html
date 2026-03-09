@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nora Naveen — Portfolio</title>
+  <meta name="description" content="Apple-inspired portfolio for Nora Naveen with cinematic scroll storytelling, research, projects, and impact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Nora Naveen</a>
+      <nav class="nav-links">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="research.html">Research</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <div>
+        <div class="eyebrow reveal">Student researcher • builder • storyteller</div>
+        <h1 class="hero-title">Where curiosity becomes innovation.</h1>
+        <p class="lead hero-copy">I build elegant, human-centered projects across biomedical engineering, research, and digital design — with the clarity and ambition of a product launch page.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="projects.html">View projects</a>
+          <a class="btn btn-secondary" href="about.html">About</a>
+          <a class="btn btn-secondary" href="research.html">Research</a>
+        </div>
+        <div class="scroll-indicator reveal"><span>Scroll</span><span><i></i></span></div>
+      </div>
+      <div class="hero-visual parallax">
+        <div class="orb"></div>
+        <div class="orb-2"></div>
+        <div class="glass-card reveal-card">
+          <h3>Designing with precision.</h3>
+          <p>Multi-page storytelling, premium transitions, and a calm Apple-like visual system built to make your work feel polished and memorable.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement container">
+      <h2 class="reveal-blur">A portfolio that feels less like a résumé and more like a launch experience.</h2>
+    </section>
+
+    <section class="container">
+      <div class="eyebrow reveal">Featured work</div>
+      <div class="project-showcase">
+        <div class="project-media scale-in"></div>
+        <div class="project-copy reveal-up">
+          <h3>Helmholtz Coil System</h3>
+          <p class="lead">A precision-focused project exploring magnetic field design, sample placement, and prototype iteration for research use.</p>
+          <a class="arrow-link" href="project-helmholtz.html"><span>Explore case study</span><span>→</span></a>
+        </div>
+      </div>
+      <div class="project-showcase">
+        <div class="project-media scale-in"></div>
+        <div class="project-copy reveal-up">
+          <h3>Project Pulmonary</h3>
+          <p class="lead">A mission-driven digital platform focused on education, advocacy, and accessible health storytelling with a premium nonprofit aesthetic.</p>
+          <a class="arrow-link" href="projects.html"><span>See the platform</span><span>→</span></a>
+        </div>
+      </div>
+      <div class="project-showcase">
+        <div class="project-media scale-in"></div>
+        <div class="project-copy reveal-up">
+          <h3>Research + Impact</h3>
+          <p class="lead">A blend of lab work, engineering curiosity, and community-focused leadership designed to create measurable outcomes.</p>
+          <a class="arrow-link" href="research.html"><span>View research</span><span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container grid-2">
+      <div class="card reveal-card">
+        <div class="eyebrow">Research</div>
+        <h3>Biomedical engineering with real-world direction.</h3>
+        <p class="muted">Dedicated space for lab work, experiments, posters, and technical storytelling that feels refined instead of overly academic.</p>
+        <div class="metric-row">
+          <div class="metric"><strong data-count="3">0</strong><span>Core focus areas</span></div>
+          <div class="metric"><strong data-count="7">0</strong><span>Site pages</span></div>
+        </div>
+      </div>
+      <div class="card reveal-card">
+        <div class="eyebrow">Capabilities</div>
+        <h3>Engineering, research, and digital design.</h3>
+        <div>
+          <span class="skill-pill">CAD</span>
+          <span class="skill-pill">Arduino</span>
+          <span class="skill-pill">Experimental Design</span>
+          <span class="skill-pill">Web Design</span>
+          <span class="skill-pill">UI/UX</span>
+          <span class="skill-pill">Storytelling</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement container section-tight">
+      <h2 class="reveal-blur">Built to look exceptional on college applications, scholarship reviews, and first impressions.</h2>
+      <div class="button-row" style="justify-content:center; margin-top:2rem;">
+        <a class="btn btn-primary" href="contact.html">Get in touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>Nora Naveen</span>
+      <span>GitHub · LinkedIn · Email</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
